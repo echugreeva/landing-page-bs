@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap Landing Page</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/fontawesome-all.min.js"></script>
+	<style>
+		#section-hero {
+			background-image: url('img/3840x2160.png');
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			min-height: 100vh;
+
+		}
+	</style>
+	</head>
+	<body data-bs-spy="scroll" data-bs-target="#navScrollspy">
+		 <nav class="navbar bg-primary navbar-dark navbar-expand-lg fixed-top ">
+			<div class="container">
+					<a href="index.html" class="navbar-brand"><i class="fas fa-camera-retro " area-hidden="true"></i>App Name</a>
+					<button type="button" class="navbar-toggler navbar-toggle-right" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav" id="navScrollspy">
+						<li class="nav-item">
+							<a class="nav-link" href="#section-hero">To the top</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-description">Description</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-trailer">Trailer</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-showcase">Showcase</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-features">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-pricing">Pricing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#section-reviews">Reviews</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		 </nav>
+		 <section id="section-hero" class="text-center text-white d-flex justify-content-center align-items-center py-5">
+			<div class="container">
+				<h1 class="display-1 text-primary text-uppercase mt-5">app name</h1>
+				
+				<p class="display-4">Lorem, ipsum dolor </p>
+				<p class="lead">sit amet consectetur adipisicing elit. </p>
+				
+				<p class="lead">Repellendus sapiente modi nisi sunt recusandae aperiam optio dolores consectetur in dolore debitis, suscipit corporis molestias error rem architecto veniam ullam mollitia!</p>
+				<p><strong>Download now on:</strong></p>
+				<a href="#0" class="btn btn-lg btn-primary  mb-3 mb-sm-0 me-sm-3"><i class='fab fa-app-store-ios' aria-hidden='true'> App Store</i></a>
+				<a href="#0" class="btn btn-lg btn-primary"><i class='fab fa-google-play' aria-hidden='true'> Google Play</i></a>
+			</div>
+		 </section>
+		 <div class="container">
+			<section id="section-description" class="mt-5">
+				<h2 class="display-4 text-center">What is App Name</h2>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque soluta veniam fugiat totam, alias voluptatibus, tempora eligendi possimus delectus beatae consectetur dolore placeat animi at accusantium inventore, necessitatibus iste error!</p>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima odit provident modi repellendus vero distinctio, obcaecati fugiat tempora, illum nemo sapiente exercitationem minus sunt quidem quis aut ad qui tempore?</p>
+
+			</section>
+		 </div>
+		 
+    <script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/smooth-scroll.min.js"></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#section-"]', {
+        offset: 56
+      });
+		</script>
+	</body>
+</html>
