@@ -1,0 +1,26 @@
+/* :root {
+    --bs-primary: var(--indigo);
+    --bs-secondary: yellow;
+}
+.navbar {
+    --bg-color: indigo
+} */
+/* .btn-primary {
+    --bs-btn-bg: #fd7e14;
+}
+
+.btn {
+    font-style: italic
+} */
+/* 
+.myOpacity {
+    --bs-bg-opacity: .25;
+} */
+
+#carousel img {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+
+
+}
